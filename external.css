@@ -1,29 +1,46 @@
 h1{
     color : blue;
+    line-height:0.5;
+    font-family: Arial;
 }
 h2{
     color: orange;
+    line-height:normal;
+    letter-spacing: normal
 
 }
 p{
     color :white;
     background:black;
+    font-weight:100;
+    letter-spacing: 10px;
 }
 button{
     color :white;
     background-color: blue;
+    font-size: 20px;
 }
 
 h3{
     color : rgb(40, 113, 120);
-    background:black;
+    text-decoration: line-through;
+    font-weight:bolder;
 }
 h4{
     color : #ff009d;
-    background:black;
+    text-decoration: overline;
+    font-weight:bold;
 }
 div{
-    text-align : right;
+    text-align : center;
+    font-weight:900;
+    text-decoration: double underline;
+    font-family:legue-spartan;
+    color : #ffa511;
+    text-size-adjust: 55px;
+    letter-spacing: 2px;
+    line-height: 1.5px;
+    
 }
 
 
