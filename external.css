@@ -15,7 +15,15 @@ button{
 }
 
 h3{
-    color : rgb(60,40,120)
+    color : rgb(40, 113, 120);
+    background:black;
+}
+h4{
+    color : #ff009d;
+    background:black;
+}
+div{
+    text-align : right;
 }
 
 
