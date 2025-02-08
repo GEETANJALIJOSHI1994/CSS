@@ -34,12 +34,13 @@ h4{
 div{
     text-align : center;
     font-weight:900;
-    text-decoration: double underline;
+    text-decoration:teal double underline;
     font-family:legue-spartan;
     color : #ffa511;
     text-size-adjust: 55px;
     letter-spacing: 2px;
     line-height: 1.5px;
+    text-transform:uppercase ;
     
 }
 
