@@ -1,0 +1,28 @@
+*{
+    font-size: 15px;
+}
+h1{
+    color:blueviolet;
+}
+h4{
+    color:blue;
+}
+a{
+    color:red;
+}
+#login{
+    background-color: aqua;
+
+}
+#signup{
+    background-color: aqua;
+}
+.upvote{
+    background-color:greenyellow;
+}
+.answer{
+    background-color: green;
+}
+p a{
+    color:chocolate;
+}
