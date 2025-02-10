@@ -26,3 +26,9 @@ a{
 p a{
     color:chocolate;
 }
+p + h3{
+    color:deeppink;
+}
+div>p{
+    background-color: yellow;
+}
