@@ -32,3 +32,35 @@ p + h3{
 div>p{
     background-color: yellow;
 }
+input[type]{
+    color:rgb(4, 17, 197);
+}
+input[password]{
+    color:black;
+}
+h2{
+    color:mediumspringgreen !important;
+}
+#intro{
+    color:darkred;
+}
+.myclass{
+    color:olive;
+}
+.paragraph{
+    background-color: darksalmon;
+}
+h1::first-letter{
+    color:black;
+}
+input::first-line{
+    background-color: yellowgreen;
+    color:forestgreen
+
+}
+div{
+    background-color: yellow;
+}
+li{
+    background-color: blue;
+}
