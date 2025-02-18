@@ -28,7 +28,26 @@
 }
  /* using animation sorthand property */
  .shorthand{
+    height: 100px;
+    width: 300px;
     animation:backAnimation 2s linear 3s infinite normal;
+}
+.percentage{
+    height: 100px;
+    width: 300px;
+    animation:percentAnimation 2s linear 3s infinite normal;
+}
+@keyframes percentAnimation{
+    0%{
+        background-color: blue;
+
+    }
+    50%{
+        background-color: yellowgreen;
+    }
+    100%{
+        background-color: peru;
+    }
 }
 
 @keyframes backAnimation{
