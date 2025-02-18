@@ -1,0 +1,69 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color:palevioletred;
+    /* animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate; */
+
+/* using color animate */
+ /* animation-name: colorAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count:infinite;
+    animation-direction: normal; */
+
+
+ /* using in widthanmiatie */
+ animation-name: widthAnimation;
+ animation-duration: 3s;
+ animation-timing-function: ease-in;
+ animation-delay: 0;
+ animation-iteration-count: 3;
+ animation-direction: normal;
+}
+ /* using animation sorthand property */
+ .shorthand{
+    animation:backAnimation 2s linear 3s infinite normal;
+}
+
+@keyframes backAnimation{
+    form{
+        color:red;
+        background-color: yellowgreen;
+    }
+    to{
+        color: blue ;
+        background-color: purple;
+    }
+}
+
+@keyframes widthAnimation{
+    from{
+        width:10px;
+    }
+    to{
+        width:400px;
+    }
+}
+@keyframes fontAnimation{
+    from{
+        font-size: 20px;
+    }
+    to{
+        font-size: 40px;
+    }
+}
+@keyframes colorAnimation{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+
+}
