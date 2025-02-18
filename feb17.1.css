@@ -7,7 +7,7 @@
     grid-template-columns: 100px 100px 100px; */
     /* grid-template-columns: auto auto auto; */
     grid-template-rows: repeat(3,1fr);
-    /* grid-template-columns: repeat(3,1fr); */
+    grid-template-columns: repeat(3,1fr);
 }
 .item{
     width: 100px;
