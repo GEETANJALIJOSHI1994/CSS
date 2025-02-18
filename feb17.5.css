@@ -1,0 +1,58 @@
+h1{
+    color: blue;
+    background-color: palevioletred;
+    border: 2px solid black;
+}
+@media(width:400px){
+    h1{
+        background-color: yellow;
+    }
+}
+div{
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color: rgb(98, 34, 226);
+}
+@media(min-width:500px){
+    div{
+        background-color: rgb(190, 18, 135);
+    }
+}
+.box{
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color: rgb(0, 128, 23);
+}
+ @media(min-width:400px){
+    .box{
+        background-color: rgb(176, 18, 52);
+    }
+} 
+
+/* using both property */
+h2{
+   
+    color: black;
+    background-color: purple;
+    border: 2px solid black;
+}
+@media (min-width:200px) and (max-width:300px){
+    h2{
+        background-color: maroon;
+    }
+}
+.orientation{
+    width: 100px;
+    height: 100px;
+    color: black;
+    background-color:darkorange;
+
+}
+@media(orientation:landscape){
+    .orientation{
+        background-color: darkred;
+        color: darkgrey;
+    }
+}
